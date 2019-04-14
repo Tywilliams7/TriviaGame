@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body>
+    <div>
+        <div class="jumbotron mt-5 ">
+            <h1 id="Trivia">Trivia Game</h1>
+            <p id="timer"></p>
+            <div id="game-start">
+                <button id="game-start" type="button" class="btn btn-primary btn-lg">Start</button>
+            </div>
+            <div id="empty-div"></div>
+            <div id="first">
+                <h1>What's the best-selling Nintendo exclusive?</h1>
+
+                <button class="NinWrong btn btn-primary btn-lg btn-block" type="button"> A. Duck Hunt </button>
+                <button class="NinWrong btn btn-primary btn-lg btn-block" type="button"> B. Super Mario Bros. </button>
+                <button class="NinWrong btn btn-primary btn-lg btn-block" type="button"> C. Mario Kart Wii </button>
+                <button id="NinCorrect" type="button" class="btn btn-primary btn-lg btn-block"> D. Wii Sports </button>
+            </div>
+
+
+
+
+            <div id="second">
+                <h1>In this FPS multiplayer multi-series published by Gearbox Software each game introduces a robot
+                    named?
+                </h1>
+
+                <button class="robotWrong btn btn-primary btn-lg btn-block"> A.R2-D2</button>
+                <button id="robotRight" type="button" class="btn btn-primary btn-lg btn-block"> B. CL4P-TP</button>
+                <button class="robotWrong btn btn-primary btn-lg btn-block"> C. P4Th-F1ND3R</button>
+                <button class="robotWrong btn btn-primary btn-lg btn-block"> D. R0-B0</button>
+
+            </div>
+            <div id="third">
+                <h1>On release of the Xbox One which one of these were not one of the 21 released games?</h1>
+
+                <button class="xboxWrong btn btn-primary btn-lg btn-block"> A. Skylanders: Swap Force</button>
+                <button id="xboxRight" type="button" class="btn btn-primary btn-lg btn-block"> B. NBA 2k15</button>
+                <button class="xboxWrong btn btn-primary btn-lg btn-block"> C. Battlefield 4</button>
+                <button class="xboxWrong btn btn-primary btn-lg btn-block"> D. Dead Rising 3</button>
+            </div>
+            <div id="forth">
+                <h1>What is the highest grossing game of all time?</h1>
+
+                <button id="4Right" type="button" class="btn btn-primary btn-lg btn-block"> A. World of
+                    WarCrafts</button>
+                <button class="4Wrong btn btn-primary btn-lg btn-block"> B. Call of Duty</button>
+                <button class="4Wrong btn btn-primary btn-lg btn-block"> C. MineCraft</button>
+                <button class="4Wrong btn btn-primary btn-lg btn-block"> D. Mario Karts</button>
+            </div>
+            <div id="fifth">
+                <h1>Which holds a record for reaching 10 million players in just 72 hours of release.</h1>
+
+                <button class="5Wrong btn btn-primary btn-lg btn-block"> A. GTA V</button>
+                <button id="5Right" type="button" class="btn btn-primary btn-lg btn-block"> B. Apex Legends</button>
+                <button class="5Wrong btn btn-primary btn-lg btn-block"> C. Black Ops 4</button>
+                <button class="5Wrong btn btn-primary btn-lg btn-block"> D. Fortnite</button>
+            </div>
+            <div id="end-game">
+                <h1>All done! Here's how you did.</h1>
+                <p>Correct Answers: <span id="correctAnswers">0</span></p>
+                <p>Incorrect Answers: <span id="incorrectAnswers">0</span></p>
+                <p>Incomplete Answers: <span id="incompleteAnswers">0</span></p>
+
+                <button id="start-over" type="button" class="btn btn-primary btn-lg">Start Over?</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
